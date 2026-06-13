@@ -1,0 +1,34 @@
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.moreLink {
+  margin-top: 24px;
+}
+
+.moreLink a {
+  font-weight: 600;
+  color: var(--bg-deep);
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 2px;
+}
+
+.toolRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media (max-width: 760px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

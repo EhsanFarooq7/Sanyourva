@@ -1,0 +1,50 @@
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 14px 7px 10px;
+  border-radius: 999px 6px 6px 999px;
+  background: var(--bg-panel);
+  border: 1px solid var(--line);
+  font-family: var(--font-label), monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+
+.hole {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  flex-shrink: 0;
+}
+
+.label {
+  font-weight: 600;
+}
+
+/* Tone variants */
+.accent {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: #6b4012;
+}
+
+.accent .hole {
+  background: var(--bg);
+  border-color: var(--accent);
+}
+
+.success {
+  background: var(--success-soft);
+  border-color: var(--success);
+  color: #2f5240;
+}
+
+.success .hole {
+  background: var(--bg);
+  border-color: var(--success);
+}

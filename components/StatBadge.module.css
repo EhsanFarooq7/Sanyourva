@@ -1,0 +1,25 @@
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 18px 22px;
+  background: var(--bg-panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  min-width: 140px;
+}
+
+.value {
+  font-family: var(--font-display), serif;
+  font-size: var(--step-4);
+  font-weight: 600;
+  color: var(--bg-deep);
+}
+
+.label {
+  font-family: var(--font-label), monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}

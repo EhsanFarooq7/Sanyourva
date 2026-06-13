@@ -1,0 +1,58 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.card {
+  background: var(--bg-panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 24px;
+}
+
+.cardTitle {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.cardCopy {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.cardCopy a {
+  color: var(--bg-deep);
+  font-weight: 600;
+  border-bottom: 1px solid var(--accent);
+}
+
+.calendlyButton {
+  display: inline-block;
+  margin-top: 6px;
+  background: var(--success);
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 22px;
+  border-radius: var(--radius-sm);
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.calendlyButton:hover {
+  background: #3e6a4d;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 860px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}

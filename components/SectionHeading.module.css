@@ -1,0 +1,14 @@
+.wrap {
+  margin-bottom: clamp(28px, 4vw, 44px);
+  max-width: 720px;
+}
+
+.title {
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+
+.lede {
+  font-size: var(--step-3);
+  color: var(--ink-soft);
+}
